@@ -21,13 +21,7 @@ mongoose.connect(
   }
 )
 
-// mongoose.connect(
-//   'mongodb+srv://dhruvish1331:mongodbbc2003@socialmedia.cg7kjpt.mongodb.net/?retryWrites=true&w=majority'
-//   // process.env.MONGO_URL,
-//   // options
-// )
-// .then(()=>console.log('connected'))
-// .catch(e=>console.log(e));
+
 app.use(express.json())
 app.use(helmet())
 app.use(morgan("common"))
